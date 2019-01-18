@@ -565,6 +565,7 @@ public class TurbolinksSession implements TurbolinksScrollUpCallback {
         if (turbolinksIsReady) {
             bridgeInjectionInProgress = false;
 
+            /* webview visits page twice for first loading
             TurbolinksHelper.runOnMainThread(applicationContext, new Runnable() {
                 @Override
                 public void run() {
@@ -572,6 +573,7 @@ public class TurbolinksSession implements TurbolinksScrollUpCallback {
                     visitCurrentLocationWithTurbolinks();
                 }
             });
+            */
 
             coldBootInProgress = false;
         } else {
