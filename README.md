@@ -305,3 +305,6 @@ The .aar's will be built at `<project-root>/turbolinks/build/outputs/aar`.
 
 - Change directories to the project's root directory.
 - Run `./gradlew clean testRelease -p turbolinks`
+
+** Upload to Bintray
+./gradlew bintrayUpload -Dbintray.user=<BINTRAY USER NAME> -Dbintray.key=<BINTRAY API KEY>
