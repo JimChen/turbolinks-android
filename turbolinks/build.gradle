@@ -16,7 +16,7 @@ buildscript {
 
 android {
     compileSdkVersion 28
-    buildToolsVersion '28.0.3'
+    buildToolsVersion '29.0.2'
 
     defaultConfig {
         minSdkVersion 19
@@ -52,19 +52,19 @@ ext {
     bintrayRepo = 'maven'
     bintrayName = 'turbolinks-android'
 
-    publishedGroupId = 'com.basecamp'
+    publishedGroupId = 'com.oscart'
     artifact = 'turbolinks'
 
     libraryName = 'Turbolinks Android'
     libraryDescription = 'Turbolinks for Android'
     libraryVersion = "$libVersionName"
 
-    siteUrl = 'https://github.com/basecamp/turbolinks-android'
-    gitUrl = 'https://github.com/basecamp/turbolinks-android.git'
+    siteUrl = 'https://github.com/JimChen/turbolinks-android'
+    gitUrl = 'https://github.com/JimChen/turbolinks-android.git'
 
-    developerId = 'basecamp'
-    developerName = 'Basecamp'
-    developerEmail = 'support@basecamp.com'
+    developerId = 'oscart'
+    developerName = 'Oscart'
+    developerEmail = 'kinghotsysu@gmail.com'
 }
 
 // Maven
